@@ -1,6 +1,8 @@
+import ViewUser from "@/modules/user-modules/view-user";
+
 const Users = () => {
     return(
-        <div>TEST</div>
+        <ViewUser></ViewUser>
     )
 }
 
