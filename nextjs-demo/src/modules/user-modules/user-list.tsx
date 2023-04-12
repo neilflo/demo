@@ -1,11 +1,15 @@
 import {any} from "prop-types";
 
-const ViewUser = () => {
+const UserList = () => {
+
+    // get data from backend
     const users: Array<any> = [
         {firstName: "Neil", lastName: "Gibeaut"},
-        {firstName: "Jake", lastName: "Danielson"}
+        {firstName: "Jake", lastName: "Danielson"},
+        {firstName: "Kelly", lastName: "Brown"}
     ]
 
+    // display data
     return (
         <div className={"space-y-10"}>
             {users.map(x => {
@@ -19,4 +23,4 @@ const ViewUser = () => {
     )
 }
 
-export default ViewUser
+export default UserList
